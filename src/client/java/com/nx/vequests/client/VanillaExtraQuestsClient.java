@@ -1,4 +1,4 @@
-package com.nx.vequests.client;
+package com.nx.vequest.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

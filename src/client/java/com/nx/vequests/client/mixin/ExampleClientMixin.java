@@ -1,4 +1,4 @@
-package com.nx.vequests.client.mixin;
+package com.nx.vequest.client.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

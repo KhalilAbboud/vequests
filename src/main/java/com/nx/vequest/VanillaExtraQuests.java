@@ -1,4 +1,4 @@
-package com.nx.vequests;
+package com.nx.vequest;
 
 import net.fabricmc.api.ModInitializer;
 

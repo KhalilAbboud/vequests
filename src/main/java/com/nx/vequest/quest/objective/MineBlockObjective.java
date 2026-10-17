@@ -1,4 +1,4 @@
-package com.nx.vequest.objective;
+package com.nx.vequest.quest.objective;
 
 public record MineBlockObjective(
         String targetBlockId,

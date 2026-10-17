@@ -1,4 +1,4 @@
-package com.nx.vequest.reward;
+package com.nx.vequest.quest.reward;
 
 import net.minecraft.server.level.ServerPlayer;
 

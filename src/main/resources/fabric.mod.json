@@ -16,19 +16,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nx.vequests.VanillaExtraQuests"
+			"com.nx.vequest.VanillaExtraQuests"
 		],
 		"client": [
-			"com.nx.vequests.client.VanillaExtraQuestsClient"
+			"com.nx.vequest.client.VanillaExtraQuestsClient"
 		]
 	},
-	"mixins": [
-		"vequests.mixins.json",
-		{
-			"config": "vequests.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",

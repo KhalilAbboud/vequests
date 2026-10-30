@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.nx.vequest.quest.player.QuestDataAttachments;
+import com.nx.vequest.quest.event.QuestEventHandler;
+import com.nx.vequest.command.QuestCommand;
 
 public class VanillaExtraQuests implements ModInitializer {
 	public static final String MOD_ID = "vequests";
@@ -23,8 +25,11 @@ public class VanillaExtraQuests implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		QuestDataAttachments.initialize();
+		QuestEventHandler.register();
+		QuestCommand.register();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Vanilla Extra Quests initialized!");
+
 	}
 
 	public static Identifier id(String path) {
